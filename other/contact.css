@@ -1,0 +1,20 @@
+/* navbar */
+nav {
+  display: fixed;
+  top: 0;
+}
+
+/* footer */
+footer {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+/* h1 */
+h1 {
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 40px;
+}

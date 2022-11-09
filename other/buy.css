@@ -1,0 +1,61 @@
+span {
+  color: red;
+}
+
+/* head-body css */
+.head-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* for button in head-body */
+.head-body button {
+  padding: 1px;
+  width: 1.8em;
+  box-sizing: border-box;
+  font-weight: bolder;
+  border: 2px solid #7a715e;
+}
+
+/* display when card is hover */
+.card:hover {
+  background-color: inherit;
+}
+
+.head-body button:hover {
+  background-color: rgb(173, 171, 171);
+}
+
+.information {
+  /* width: 30%; */
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.information h4 {
+  letter-spacing: 0.1em;
+  /* color: red; */
+  /* background-color: #e0d3ba; */
+  margin-bottom: 10px;
+}
+
+.information img {
+  width: 100px;
+  height: 60px;
+  transition: all 0.3s;
+  cursor: pointer;
+  /* margin-top: 10px; */
+}
+
+.information img:hover {
+  transform: scale(1.05);
+}
+
+.information .bank {
+  width: 30%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
