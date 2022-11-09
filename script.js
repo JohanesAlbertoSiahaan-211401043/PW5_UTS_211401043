@@ -1,3 +1,4 @@
+// baru coy
 // to select button in accordion
 const accordionHead = document.querySelectorAll(".accordion button");
 // to select img in accordion
